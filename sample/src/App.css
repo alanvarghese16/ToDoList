@@ -1,0 +1,79 @@
+.home {
+    display:flex;
+    Flex-direction: Column;
+    align-items: center;
+    box-sizing:border-box ;
+    color:white;  
+}  
+body {
+    background-color: #020631;
+  }  
+.input{
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px; 
+    font-size: 16px;
+    border: 4px solid violet;
+    border-radius: 5px;
+}  
+.Edit{
+    align-items: center;
+    padding: 10px;
+    margin-right: 10px; 
+    font-size: 16px;
+}
+.Add{
+
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create_form input {
+    display:flex;
+    justify-content: center;
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+}
+.create_form button {
+    display:flex;
+    padding: 10px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+.task{
+    display: flex;
+    align-items: center;
+    width:345px;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    height: 35px;
+    padding: 2px 5px 2px 5px;
+    margin-top: 2px;
+}
+.checkbox{
+    display:flex;
+    align-items: center;
+}
+.line_through{
+  text-decoration: line-through;  
+}
+
+.checkbox .icon {
+    margin-right:5px;
+
+}
+.task div span{
+    margin:0px 5px 0px 4px;
+}
+.task div .icon {
+    cursor:pointer;
+}
